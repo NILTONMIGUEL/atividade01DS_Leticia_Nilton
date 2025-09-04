@@ -79,11 +79,13 @@ nav ul.sub-menu li a{
 .social > i{
     font-size:23px;
     margin-left:40px;
+    cursor: pointer;
 }
 .section-one{
     width: 100%;
     display: flex;
     background-color: #d9dadcff;
+    height: 440px;
 }
 .section-text{
     flex-grow: 1;
@@ -113,13 +115,47 @@ button:hover{
 .section-image{
     flex-grow: 1;
     text-align: center;
-    background-color: orange;
 }
 .section-image img{
+   width: 450px;
+   position: relative;
+   left:0;
+   top:23px;
 
 }
 footer{
     width: 100%;
     height: 150px;
     background-color: #131117ff;
+    display: flex;
+    column-gap:200px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.boxs{
+    text-align: center;
+}
+.boxs i{
+    font-size:30px;
+    color:white;
+    cursor: pointer;
+}
+.boxs p{
+    margin-top:10px;
+    font-weight: bold;
+    color:white;
+}
+.whatsapp{
+    width: 100%;
+    position: fixed;
+    margin:60px 0;
+    text-align: right;
+}
+.whatsapp i{
+    width: 100%;
+    font-size:40px;
+    color:green;
+    margin-right: 100px;
+    cursor: pointer;
 }
